@@ -14,3 +14,4 @@ app.include_router(event_routes.router, prefix="/events", tags=["Events"])
 @app.get("/")
 def root():
     return {"message": "Welcome to the College Ticket Booking System"}
+
